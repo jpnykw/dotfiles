@@ -66,7 +66,7 @@ set showmatch
 set backspace=indent,eol,start
 " set cursorline
 
-" custome keymaps
+" custom keymaps
 nnoremap j gj
 nnoremap k gk
 nnoremap <down> gj
