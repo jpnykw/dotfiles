@@ -1,3 +1,0 @@
-{'repo': v:val.repo, 'rev': get(v:val, 'rev', '')}
-0
-[{'rev': '', 'repo': 'Shougo/dein.vim'}, {'rev': '', 'repo': 'airblade/vim-gitgutter'}, {'rev': '', 'repo': 'mattn/vim-lsp-settings'}, {'rev': '', 'repo': 'pangloss/vim-javascript'}, {'rev': '', 'repo': 'prabirshrestha/async.vim'}, {'rev': '', 'repo': 'prabirshrestha/asyncomplete-lsp.vim'}, {'rev': '', 'repo': 'prabirshrestha/asyncomplete.vim'}, {'rev': '', 'repo': 'prabirshrestha/vim-lsp'}, {'rev': '', 'repo': 'prettier/vim-prettier'}, {'rev': '', 'repo': 'ryanoasis/vim-devicons'}, {'rev': '', 'repo': 'vim-airline/vim-airline'}, {'rev': '', 'repo': 'vim-airline/vim-airline-themes'}]
