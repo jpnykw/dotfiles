@@ -141,14 +141,19 @@ alias ls='exa -la -s=ext'
 
 # short handles
 alias dev='cd ~/Desktop/Devs'
+alias dotfiles='cd ~/dotfiles'
 
 alias ga='git add'
 alias gc='git cz'
 alias gp='git push'
 alias gs='git status'
+alias gl='git log'
+alias gb='git branch'
 
 alias vimrc='vim ~/.vimrc'
 
 alias y='yarn'
 
 alias zshrc='vim ~/.zshrc'
+
+eval $(thefuck --alias)
