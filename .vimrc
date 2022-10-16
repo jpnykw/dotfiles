@@ -18,6 +18,7 @@ call dein#add('ryanoasis/vim-devicons')
 call dein#add('airblade/vim-gitgutter')
 call dein#add('pangloss/vim-javascript')
 call dein#add('prettier/vim-prettier', {'build': 'npm install', 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html']})
+call dein#add('pantharshit00/vim-prisma')
 
 call dein#add('prabirshrestha/async.vim')
 call dein#add('prabirshrestha/asyncomplete.vim')
