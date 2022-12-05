@@ -1,3 +1,5 @@
 link.sh
 .vim/.netrwhist
 .vim/dein/.cache
+.nvim/plugin
+.DS_Store
