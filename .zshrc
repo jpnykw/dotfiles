@@ -18,8 +18,12 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 function gvim() {
-	vim -p `grep -l $1 | perl -pe 's/\n/ /g';`
+	nvim -p `grep -l $1 | perl -pe 's/\n/ /g';`
 }
+
+# golang
+export GOPATH=$(go env GOPATH)
+export PATH=$PATH:$GOPATH:bin
 
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH

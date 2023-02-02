@@ -25,6 +25,8 @@ call dein#add('prabirshrestha/asyncomplete.vim')
 call dein#add('prabirshrestha/asyncomplete-lsp.vim')
 call dein#add('prabirshrestha/vim-lsp')
 call dein#add('mattn/vim-lsp-settings')
+
+call dein#add('akinsho/toggleterm.nvim')
 " ============================================================
 call dein#end()
 
